@@ -4,15 +4,15 @@ const EmailSignUp = () => {
   return (
     <form className="flex flex-col items-start space-y-2">
       <label htmlFor="email" className="mb-2 font-bold text-lg">
-        Sign up
+        Sign up for the latest updates
       </label>
-      <div className="flex">
+      <div className="flex w-full">
         <input
           type="email"
           id="email"
           name="email"
           placeholder="Enter your email"
-          className="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="p-2 border w-[50%] border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
           type="submit"

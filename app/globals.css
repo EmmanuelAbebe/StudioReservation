@@ -24,3 +24,30 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --bg: #f3f3f3;
+  --surface: #dcd2c6;
+  --muted: #c8b9a6;
+  --taupe: #b79c81;
+  --clay: #9f8265;
+  --walnut: #856548;
+  --deep: #604f35;
+  --ink: #2e2c27;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --surface: #1e1e1e;
+    --muted: #2c2c2c;
+    --taupe: #3a3a3a;
+    --clay: #4a4a4a;
+    --walnut: #5c5c5c;
+    --deep: #6f6f6f;
+    --ink: #e0e0e0;
+  }
+}
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+}
